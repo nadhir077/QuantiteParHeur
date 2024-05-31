@@ -8,7 +8,8 @@ module.exports = {
                 return {
                     id : res.id,
                     refProduit : res.refProduit,
-                    operation : res.operation
+                    operation : res.operation,
+                    temp:res.temp
                 }
             })
         })
